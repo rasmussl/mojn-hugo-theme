@@ -1,0 +1,12 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My Example Hugo Site '
+themesDir = "../.."
+theme = 'mojnTheme'
+
+[params]
+    sections = ["bio", "experience", "bio", "social"]
+
+[params.profile]
+enable = false
+hi = "Hi from Params"

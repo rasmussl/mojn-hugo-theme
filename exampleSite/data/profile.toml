@@ -1,0 +1,11 @@
+[profile]
+enable = true
+greeting= "Hello, I'm Rasmus"
+
+[profile.image]
+url = "/image/profile.jpg"
+alt ="Rasmus Sander Larsen avatar"
+
+[profile.description]
+title = "An Android developer"
+content  = "Living in Copenhagen, Denmark. Running, drinking and developing nice stuff."

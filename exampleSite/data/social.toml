@@ -1,0 +1,15 @@
+# Social media
+title = "Experience"
+description = "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+
+  [[items]]
+  socailMediaType = "facebook"
+  URL = "https://facebook.com"
+
+  [[items]]
+  socailMediaType = "instagram"
+  URL = "https://instagram.com"
+
+  [[items]]
+  socailMediaType = "linkedin"
+  URL = "https://linkedin.com"

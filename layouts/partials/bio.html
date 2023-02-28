@@ -1,0 +1,24 @@
+{{ if .Site.Data.profile.profile.enable }}
+{{- $profile := .Site.Data.profile.profile -}}
+<section class="section rad-animation-group pb-0" id="bio">
+    <div class="bio-card">
+        <!--
+        <div class="avatar">
+            {{ with $profile.image }}
+              <img class="rounded-1 avatar-user" height="32" width="32" src="{{ $profile.image.x | absURL }}">
+              {{ else }}
+              <img class="rounded-1 avatar-user" height="32" width="32" src="{{ $.Param "images/avatar.png" | absURL }}">
+              {{ end }}
+        </div>
+        -->
+        <div class="greeting">
+            <h5>{{ $profile.greeting}}</h5>
+        </div>
+        <div class="description">
+            <h3>{{ $profile.description.title}}</h3>
+            <br>
+            <h5>{{ $profile.description.content | markdownify}}</h5>
+        </div>
+    </div>
+</section>
+{{ end }}

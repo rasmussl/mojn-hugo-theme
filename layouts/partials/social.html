@@ -1,0 +1,15 @@
+{{- $social := .Site.Data.social -}}
+<section id="socialmedia" class="section">
+    <div class="container">
+                <div class="center">
+                    <div class="social-media-links">  
+                        {{ range $social.items }}
+                        <a href="{{ .URL | absURL }}" target="_blank"
+                            ><i class="bi-{{ .socailMediaType }}" style="font-size: 2rem; color: rgb(0, 0, 0);"></i
+                        ></a>
+                        {{ end }}
+                    </div>
+                </div> 
+        
+    </div>
+</section>
